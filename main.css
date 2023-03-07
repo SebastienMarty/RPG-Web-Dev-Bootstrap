@@ -1,0 +1,107 @@
+/* Propriétés générales------------*/
+* {
+    box-sizing: border-box;
+}
+/* // Propriétés générales------------*/
+
+
+/* background----------------------*/
+body {
+    background-image: url("pics/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+}
+/* // background-----------------------*/
+
+/* Style du header---------------*/
+#maintitle {
+    font-family: 'Rye', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 60px;
+}
+/* // Style du header---------------*/
+
+/* ID personnage--------------------*/
+.charpic{
+    height: 170px;
+    max-width: 170px;
+    float: left;    
+    margin: 0 15px 0 0;        
+}
+
+.charpic:hover {
+    opacity: 0.7;
+}
+
+.Character-Card {
+    font-weight: bold;
+    padding-bottom: 1px;
+}
+
+p {
+    line-height: 1rem;
+}
+
+.charname {
+    font-family: 'Rye', cursive;
+    font-size: larger;
+}
+
+.category {
+    text-decoration-line: underline;
+    font-weight: bold;
+}
+
+.row div {
+    border: 1px solid black;
+}
+
+.row img {
+    float: right;
+    height: 60px;
+}
+
+.location img {
+    height: 30px
+}
+
+/* // ID personnage--------------------*/
+
+/* Boardgame--------------------------*/
+.Boardgame img {
+    height: 300px;
+    max-width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.Boardgame:hover {
+    opacity: 0.7;
+}
+/* // Boardgame--------------------------*/
+
+
+/* Style du footer--------------------*/
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/* Citations---------------------------*/
+footer div {
+    font-weight: bold;
+}
+
+footer div i {
+    font-style: italic;
+}
+
+footer .credit {
+    text-align: right;
+}
+/* // Citations---------------------------*/
